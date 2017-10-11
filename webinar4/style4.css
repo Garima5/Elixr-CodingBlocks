@@ -1,0 +1,49 @@
+
+.l1 li
+{
+	margin: 5px;
+	padding: 5px;
+	border: solid black 1px;
+}
+.l2
+{
+	display: none;
+}
+
+.l3
+{
+	display: none;
+}
+
+.l21
+{
+	display: none;
+}
+li.ele1:hover 
+{
+	border: none;
+}
+li.ele1:hover ol.l2
+{
+	display: block;
+	background-color: #c0392b;
+}
+
+li.ele101:hover ul.l3
+{
+	display: block;
+	background-color: #e74c3c;
+}
+li.ele101:hover
+{
+	border: none;
+}
+li.ele2:hover ul.l21
+{
+	display: block;
+	background-color: #f39c12;
+}
+li.ele2:hover 
+{
+	border: none;
+}
