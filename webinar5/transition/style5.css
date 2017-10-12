@@ -1,0 +1,27 @@
+#div1
+{
+	background-color: pink;
+	height: 70px;
+	width: 70px;
+	
+}
+
+#div1:hover
+{
+	background-color: blue;
+	transition: background 4s;
+}
+#div2
+{
+	background-color: yellow;
+	height: 70px;
+	width: 70px;
+	
+}
+
+#div1:hover + #div2
+{
+	margin-left: 200px;
+	background-color: orange;
+	transition: margin 2s, background 2s;
+}
