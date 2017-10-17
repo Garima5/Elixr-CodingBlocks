@@ -1,0 +1,97 @@
+.logo {
+    display: block;
+    margin: auto;
+    height: 20%;
+    width: 20%;
+}
+.titleDiv {
+    background-color: #ff4d4d;
+}
+.title {
+    display: block;
+    margin: auto;
+    color: white;
+    height: 20%;
+    width: 25%;
+}
+.content {
+    width: 100%;
+    /*background-color:#e6ffff;*/
+}
+.studentDetails {
+    width: 60%;
+    display: block;
+    margin: auto;
+}
+#button {
+    margin-left: 35%;
+    cursor: pointer;
+    padding-top: 1%;
+}
+.student {
+    margin-left: 2%;
+    margin-top: 1%;
+}
+#studentTitle {
+    text-align: center;
+    font-family: 'Dancing Script', serif;
+    font-size: 40px;
+    text-shadow: 1px 1px 1px #aaa;
+}
+label,
+input {
+    /* in order to define widths */
+    
+    display: inline-block;
+}
+label {
+    width: 20%;
+    /* positions the label text beside the input */
+    
+    text-align: right;
+}
+label + input+textarea {
+    width: 50%;
+    /* large margin-right to force the next element to the new-line
+       and margin-left to create a gutter between the label and input */
+    
+    margin: 0% 0% 0 4%;
+    padding-top: 2%;
+}
+input,
+textarea {
+    width: 50%;
+    padding: 7px 5px;
+    box-sizing: border-box;
+    border: 1.5px solid #E6E6FA;
+    border-radius: 4px;
+}
+input:focus {
+    border: 2px solid #E6E6FA;
+}
+p {
+    color: #E8E8E8;
+    font-family: 'Gravitas One', cursive;
+    font-size: 20px;
+    margin: 10px 0px 0 10px;
+    padding-left: 40%;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30em;
+    animation: type 5s steps(100) infinite;
+}
+.btn:hover,
+.btn:active {
+    color: #0e83cd;
+    background: #fff;
+}
+#button {
+    margin-left: 20%;
+    padding-left: 0%;
+    width: 50%;
+}
+@keyframes type {
+    from {
+        width: 0;
+    }
+}
